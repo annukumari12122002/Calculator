@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    color: #200819;
+}
+
+.calculator{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(62, 30, 242);
+    background: linear-gradient(315deg,rgba(62, 30, 242, 1) 0%,rgba(174, 128, 214, 1) 100%
+  );
+}
+
+.container{
+    height: 80%;
+    width: 25%;
+    border-radius: 1.6rem;
+    box-shadow: 10px 5px 5px #4A112F;
+    background-color: #FFF;
+    overflow: hidden;
+    /* border: 2px solid; */
+}
+
+.heading{
+    height: 8%;
+    width: 100%;
+    /* border: 2px solid red; */
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading:first-child{
+    padding-left: 0.5em;
+}
+
+.heading div:last-child{
+    border: 3px solid #200819;
+    height: 60%;
+    width: 12%;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-color: #200819;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.heading div:last-child:hover{
+    cursor: pointer;
+}
+
+.calculation{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* border: 2px solid blue; */
+}
+
+.expression{
+    height: 50%;
+    width: 100%;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: last baseline;
+    padding-bottom: 0.1em;
+    padding-right: 0.2em;
+    overflow: scroll;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+
+.result{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: #D72852;
+    font-size: 1.4rem;
+    padding-right: 0.4em;
+    overflow: scroll;
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+}
+
+.grid{
+    height: 57%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    background-color: #FFF;
+}
+
+.grid .btn{
+    height: 20.2%;
+    width: 24.5%;
+    border-radius: 0.5rem;
+    background-color: #EEECED;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 300;
+    /* border: 2px solid purple; */
+}
+
+.btn .bracket{
+    margin-right: 1rem;
+    /* border: 2px solid red; */
+}
+
+.col{
+    color: #D72852;
+}
+
+.btn:last-child{
+    background-color: #200819;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
