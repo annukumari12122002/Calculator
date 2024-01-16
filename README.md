@@ -30,13 +30,3 @@ If you want to contribute or modify the project, follow these steps:
 1. **Make your changes and test the app locally.**
 
 2. **Create a pull request with a detailed description of your changes.**
-
-## License
-
-This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
-
-## Acknowledgments
-
-- The calculator app dark mode design is inspired by [Sahil Verma]```https://codepen.io/sahilpro```.
-- The calculator app light mode design is inspired by [Kuldeep Agarwal
-]```https://dribbble.com/Kul_luK```.
