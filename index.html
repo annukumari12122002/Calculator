@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS Link  -->
+    <!-- Light Mode  -->
+    <link id="stylesheet" rel="stylesheet" href="lightStyle.css">
+
+    <!-- Dark Mode enabled by JS -->
+    <!-- <link id="stylesheet" rel="stylesheet" href="darkStyle.css"> -->
+
+</head>
+<body>
+    
+    <!-- entire page  -->
+    <div class="calculator">
+
+        <!-- calculator container  -->
+        <div class="container">
+
+            <!-- calculator heading  -->
+            <div class="heading">
+                <span> Calculator </span>
+                <div class="toggle">
+                    <!-- Light Mode -->
+                    <i class="fas fa-moon fa-inverse toggler-icon"></i>
+
+                    <!-- Dark Mode enabled by JS  -->
+                    <!-- <i class="fa-solid fa-circle-half-stroke"></i>  -->
+                </div>
+            </div>
+
+            <div class="calculation">
+                <div class="expression"> </div>
+                <div class="result"> </div>
+            </div>
+
+            <div class="grid">
+                <button class="btn" data-choice="C" > C </button>
+                <button class="btn" data-choice="B" > 
+                    <i class="material-icons">backspace</i> 
+                </button>
+                <button class="btn doubleBracket">  
+                    <span class="bracket" data-choice="("> ( </span>
+                    <span class="bracket" data-choice=")"> ) </span>
+                </button>
+                <button class="btn col" data-choice="+" > + </button>
+
+                <button class="btn" data-choice="7" > 7 </button>
+                <button class="btn" data-choice="8" > 8 </button>
+                <button class="btn" data-choice="9" > 9 </button>
+                <button class="btn col" data-choice="-" > - </button>
+
+                <button class="btn" data-choice="4" > 4 </button>
+                <button class="btn" data-choice="5" > 5 </button>
+                <button class="btn" data-choice="6" > 6 </button>
+                <button class="btn col" data-choice="x" > x </button>
+
+                <button class="btn" data-choice="1" > 1 </button>
+                <button class="btn" data-choice="2" > 2 </button>
+                <button class="btn" data-choice="3" > 3 </button>
+                <button class="btn col" data-choice="/" > &#247; </button>
+
+                <button class="btn" data-choice="." > . </button>
+                <button class="btn" data-choice="0" > 0 </button>
+                <button class="btn" data-choice="%" > % </button>
+                <button class="btn col" data-choice="=" > = </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Javascript  -->
+    <script src="index.js"></script>
+
+</body>
+</html>
